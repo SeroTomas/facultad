@@ -1,0 +1,48 @@
+Ejercicios PUNTEROS
+
+1- Escriba un main en el que se declare un vector de números enteros, entre 10 y 15 valores, y que
+muestre dichos valores por pantalla usando un puntero para hacerlo.
+
+2- Escriba una función que reciba un vector numérico de enteros y calcule su promedio devolviendo
+dicho valor. La función deberá poder recibir vectores de distinto tamaño para hacer el cálculo.
+Muestre como usa la función en un main.
+
+3- Escriba una función que reciba un vector numérico y diga cuantos son números primos. En un main
+se deberá imprimir cuantos fueron.
+
+4- Escriba una función que reciba dos vectores, que podrán ser de distintos tamaños, pero el segundo
+menor o igual que el primero. El primer vector contendrá valores numéricos, y el segundo los
+valores a buscar en el primero. Se deberá devolver de la función cuántos de esos valores existen en
+el primer vector. Además escriba un main que muestre su uso.
+
+5- Escriba una función que reciba cuatro letras sueltas por referencia y devuelva un string con las
+mismas.
+
+6-Escriba una función que reciba como parámetro un texto y que devuelva la primera letra del mismo
+usando un puntero. Escriba un main que use dicha función y todos los elementos que sean
+necesarios.
+
+7- Escriba una función que reciba como parámetro un string y una letra (pásela a la función también
+por medio de un puntero). Busque si existe dicha letra por medio de punteros y devuelva cuantas
+veces está en el texto. Escriba un main que use dicha función y todos los elementos que sean
+necesarios.
+
+8- Escriba una función que reciba como parámetro dos strings, y devuelva, un 0 si son iguales o 1 si
+son distintos (siempre se está hablando del contenido de los mismos) Escriba un main que use
+dicha función y todos los elementos que sean necesarios.
+
+9- Escriba una función que permita ordenar un vector que sea del siguiente tipo de dato por el campo
+letra:
+	struct datos{
+		short A;
+		float B;
+		char letra;
+	};
+
+10- Escriba una función que permita buscar en un vector que sea del siguiente tipo de dato por el
+campo texto. De existir lo buscado devuelva donde se encontró y si no está devuelva -1.
+	struct datos{
+		short A;
+		float B;
+		char texto[100];
+	};
