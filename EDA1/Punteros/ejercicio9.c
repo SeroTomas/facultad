@@ -70,8 +70,6 @@ void ordenarVector(struct Datos *vector, short cantidad){
 }
 
 void toLower(char *letra){
-	
-	
 	if(*letra < 91 && *letra > 64){
 		*letra += 32;
 	}
