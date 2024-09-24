@@ -10,14 +10,14 @@ void coincidencias(short *,short, short *, short *);
 
 int main(void){
 	
-	short vector[5] ={2,2,2,4,2};
+	short vector[5] ={1,2,3,4,5};
 	short pares = 0;
 	short impares = 0;
 	
 	coincidencias(vector, 5, &pares, &impares);
 	
 	printf("la cantidad de numeros pares es: %hd \n",pares);
-	printf("la cantidad de numers imparse es: %hd \n", impares);
+	printf("la cantidad de numers impares es: %hd \n", impares);
 	
 	return 0;
 }
