@@ -11,7 +11,7 @@ void cuantoSeRepite(char *, char *, short *);
 int main(void){
 	
 	char string[15] ={"Hola buenas"};
-	char letra = 'u';
+	char letra = 'a';
 	short contador = 0;
 	
 	cuantoSeRepite(string, &letra, &contador);
