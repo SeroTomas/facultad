@@ -24,7 +24,7 @@ short encontrar(struct Datos *, short, char *);
 int main(void){
 	
 	
-	char busqueda[100] = {"facundo"};
+	char busqueda[100] = {"facundo perez"};
 	short indice;
 	struct Datos vectorStruct[4] = {
 		{1, 2.5, "Tomas Silverio"},
